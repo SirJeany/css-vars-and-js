@@ -1,3 +1,31 @@
+/* Google font: Baloo: */
+@import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
+
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img {
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
 body {
-    text-align: center;
+    /* text-align: center; */
+    background-color: #193549 !important;
+    color: mintcream !important;
+    font-family: 'Baloo 2', cursive !important;
+    font-weight: 100 !important;
+    font-size: 50px;
+}
+
+.conrols {
+    margin-bottom: 50px;
 }

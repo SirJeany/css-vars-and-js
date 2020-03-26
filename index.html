@@ -14,7 +14,7 @@
 <body>
     
     <main class="container-fluid">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
             <div class="text-center">
                 <h1>Update CSS Variables with <span class="hl">JS</span></h1>
             </div>
@@ -24,13 +24,16 @@
             <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
             <label for="blur">Blur:</label>
-            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="20px">
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
 
             <label for="base">Base color:</label>
             <input type="color" name="base" value="#ffc600">
         </div>
 
-        <img src="http://unsplash.it/800/500?image=899" alt="image">
+        <div class="container d-flex justify-content-center">
+            <img src="/img/tipsoo-lake-washington.jpg" alt="image">
+        </div>
+        
     </main>
 
 
